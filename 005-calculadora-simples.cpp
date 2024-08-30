@@ -5,7 +5,7 @@ int a = 5, adicao, subtracao;
 int b = 10;
 
 //real
-float f = 4.4, multiplicacao, divisao;
+float multiplicacao, divisao;
 
 int main()
 {
