@@ -3,16 +3,16 @@
 int main()
 {
     // Expressão inicial
-    int i = 0;
+    int i = 10;
 
-    while (i <= 10) // Expressão booleana
+    while (i >= 0) // Expressão booleana
     {
-        printf("%d\n", i);
+        printf("%d ", i);
 
-        //i = i + 1;
-        i++; // Expressão de incremento
+        i -= 2; // equivalência -> i = i - 2;
+        // i--; // Expressão de decremento
+        // i++; // Expressão de incremento
     }
-    
 
     return 0;
 }

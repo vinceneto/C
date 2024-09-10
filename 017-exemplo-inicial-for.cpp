@@ -5,9 +5,9 @@ int main()
     // Expressão inicial
     int i;
 
-    for (i = 10; i >= 0; i--) // i-- -> i = i - 1
+    for (int i = 0; i <= 10; i++) // i++ -> i = i + 1
     {
-        printf("%d - ", i);
+        printf("%d ", i);
     }
         
     return 0;
